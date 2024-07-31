@@ -1,0 +1,73 @@
+:root {
+    --opacity-90: 0.9;
+    --opacity-80: 0.8;
+    --opacity-70: 0.7;
+    --opacity-60: 0.6;
+    --opacity-50: 0.5;
+    --opacity-40: 0.4;
+    --opacity-30: 0.3;
+    --opacity-20: 0.2;
+    --opacity-10: 0.1;
+
+
+    --color-title-darkmode: #e6e6e6;
+    --color-title-lightmode: #131212;
+
+    --font-family-title: "Gill Sans", sans-serif;
+
+    --color-main-background: #1d2634;
+    --color-secondary-background: #263043;
+    --color-darker-background: #121a24;
+    --color-lighter-background: #3a4859;
+
+    --color-main-background-opacity-90: rgba(29, 38, 52, var(--opacity-90));
+    --color-main-background-opacity-80: rgba(29, 38, 52, var(--opacity-80));
+    --color-main-background-opacity-70: rgba(29, 38, 52, var(--opacity-70));
+    --color-main-background-opacity-60: rgba(29, 38, 52, var(--opacity-60));
+    --color-main-background-opacity-50: rgba(29, 38, 52, var(--opacity-50));
+    --color-main-background-opacity-40: rgba(29, 38, 52, var(--opacity-40));
+    --color-main-background-opacity-30: rgba(29, 38, 52, var(--opacity-30));
+    --color-main-background-opacity-20: rgba(29, 38, 52, var(--opacity-20));
+    --color-main-background-opacity-10: rgba(29, 38, 52, var(--opacity-10));
+
+    --color-secondary-background-opacity-90: rgba(38, 48, 67, var(--opacity-90));
+    --color-secondary-background-opacity-80: rgba(38, 48, 67, var(--opacity-80));
+    --color-secondary-background-opacity-70: rgba(38, 48, 67, var(--opacity-70));
+    --color-secondary-background-opacity-60: rgba(38, 48, 67, var(--opacity-60));
+    --color-secondary-background-opacity-50: rgba(38, 48, 67, var(--opacity-50));
+    --color-secondary-background-opacity-40: rgba(38, 48, 67, var(--opacity-40));
+    --color-secondary-background-opacity-30: rgba(38, 48, 67, var(--opacity-30));
+    --color-secondary-background-opacity-20: rgba(38, 48, 67, var(--opacity-20));
+    --color-secondary-background-opacity-10: rgba(38, 48, 67, var(--opacity-10));
+
+    --color-darker-background-opacity-90: rgba(18, 26, 36, var(--opacity-90));
+    --color-darker-background-opacity-80: rgba(18, 26, 36, var(--opacity-80));
+    --color-darker-background-opacity-70: rgba(18, 26, 36, var(--opacity-70));
+    --color-darker-background-opacity-60: rgba(18, 26, 36, var(--opacity-60));
+    --color-darker-background-opacity-50: rgba(18, 26, 36, var(--opacity-50));
+    --color-darker-background-opacity-40: rgba(18, 26, 36, var(--opacity-40));
+    --color-darker-background-opacity-30: rgba(18, 26, 36, var(--opacity-30));
+    --color-darker-background-opacity-20: rgba(18, 26, 36, var(--opacity-20));
+    --color-darker-background-opacity-10: rgba(18, 26, 36, var(--opacity-10));
+
+    --color-lighter-background-opacity-90: rgba(58, 72, 89, var(--opacity-90));
+    --color-lighter-background-opacity-80: rgba(58, 72, 89, var(--opacity-80));
+    --color-lighter-background-opacity-70: rgba(58, 72, 89, var(--opacity-70));
+    --color-lighter-background-opacity-60: rgba(58, 72, 89, var(--opacity-60));
+    --color-lighter-background-opacity-50: rgba(58, 72, 89, var(--opacity-50));
+    --color-lighter-background-opacity-40: rgba(58, 72, 89, var(--opacity-40));
+    --color-lighter-background-opacity-30: rgba(58, 72, 89, var(--opacity-30));
+    --color-lighter-background-opacity-20: rgba(58, 72, 89, var(--opacity-20));
+    --color-lighter-background-opacity-10: rgba(58, 72, 89, var(--opacity-10));
+
+
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #9e9ea4;
+    --color-accent: #888;
+    --color-accent-hover: #555;
+    --color-border: #444;
+    --color-scrollbar-track: #444;
+    --color-scrollbar-thumb: #888;
+    --color-scrollbar-thumb-hover: #555;
+    --color-close-icon: red;
+}

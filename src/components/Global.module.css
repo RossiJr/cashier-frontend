@@ -1,0 +1,30 @@
+@import '../vars.css';
+
+.hide {
+    display: none;
+}
+
+.title1 {
+    color: var(--color-title-darkmode);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--font-family-title);
+}
+
+/* Scrollbar style */
+.scrollBar1::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrollBar1::-webkit-scrollbar-track {
+    background: #444;
+}
+
+.scrollBar1::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px; /* Rounded corners for thumb */
+}
+
+.scrollBar1::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

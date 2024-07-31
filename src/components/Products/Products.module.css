@@ -1,0 +1,28 @@
+@import "../../vars.css";
+
+
+.productsWrapper {
+    width: calc(100% - 40px); /* 20px margin on each side */
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    padding: 20px;
+    background-color: var(--color-lighter-background-opacity-30);
+    border: 3px solid var(--color-lighter-background);
+    flex: 1; /* Takes remaining space */
+    overflow-y: auto;
+}
+
+.productsList {
+    height: auto;
+}
+
+.elevatedEffect {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 15px 40px rgba(0, 0, 0, 0.2); /* Elevated effect */
+    transform: translateY(-5px); /* Slightly lifts the element */
+}

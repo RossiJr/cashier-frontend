@@ -1,0 +1,51 @@
+.header {
+    grid-area: header;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+}
+
+.menuIcon {
+    display: none;
+}
+
+.menuIcon .icon:hover {
+    cursor: pointer;
+}
+
+
+.icon {
+    vertical-align: middle;
+    margin-right: 1px;
+    font-size: 20px;
+}
+
+.iconHeader {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+}
+
+.icon,
+.iconHeader {
+    margin-right: 5px;
+}
+
+
+
+@media screen and (max-width: 830px) {
+    .menuIcon {
+        display: inline;
+    }
+    
+}
+
+
+@media screen and (max-width: 576) {
+    .headerLeft {
+        display: none;
+    }
+}

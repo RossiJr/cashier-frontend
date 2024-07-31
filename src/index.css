@@ -1,0 +1,35 @@
+@import './vars.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-main-background);
+  color: #9e9ea4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Webkit browsers */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #263043; /* --color-secondary-background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a4859; /* --color-lighter-background */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* --color-accent */
+}
+
+/* Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #3a4859 #263043; /* --color-lighter-background --color-secondary-background */
+}

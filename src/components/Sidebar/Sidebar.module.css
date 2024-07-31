@@ -1,0 +1,107 @@
+@import '../../vars.css';
+
+/* Sidebar  */
+.sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: var(--color-secondary-background);
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.sidebarTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+}
+
+.sidebarTitle>span {
+    display: none;
+}
+
+.sidebarBrand {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebarList {
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebarListItem {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+}
+
+.sidebarListItem:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.sidebarListItem>a {
+    text-decoration: none;
+    color: #9e9ea4;
+}
+.sidebarList > a {
+    color: #9e9ea4;
+    text-decoration: none;
+}
+
+.sidebarResponsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+}
+
+
+.icon {
+    vertical-align: middle;
+    margin-right: 1px;
+    font-size: 20px;
+}
+
+.iconHeader {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+}
+
+.icon,
+.iconHeader {
+    margin-right: 5px;
+}
+
+.closeIcon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.linkButton {
+    width: 100%;
+    height: 100%;
+  }
+
+
+@media screen and (max-width: 830px) {
+    .sidebar {
+        display: none;
+    }
+
+    .sidebarTitle > span {
+        display: inline;
+    }
+
+    
+}

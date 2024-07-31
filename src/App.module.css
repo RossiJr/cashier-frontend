@@ -1,0 +1,31 @@
+.gridContainer{
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas: 
+    "header header header header"
+    "sidebar main main main";
+  height: 100vh;
+}
+
+.title {
+  color: #000;
+}
+
+
+.mainContent {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 20px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+@media screen and (max-width: 830px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas: 
+      "header"
+      "main";
+  }
+}
